@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Data (raw data is tracked, processed is generated)
+data/processed/
+data/interim/
+reports/figures/
+reports/dashboard/
+
+# IDE
+.vscode/
+.idea/
+.atl
+
+# Environment
+.env
+venv/
+.venv/
